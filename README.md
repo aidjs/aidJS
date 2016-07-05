@@ -31,3 +31,26 @@ Aid Js is a javascript framework/library which aids/helps developers make incred
 
 <h4>Library</h4>
 <p>Aid can be used as a library mainly if one needs just a javascript templating engine</p>
+An example of using aid as library
+```javascript		
+	<!-- The div where view is to be placed -->
+	<div id="view"></div>
+	<!-- Including aid js file -->
+	<script type="text/javascript" src="aid.js">
+	<script type="text/javascript">
+	   // creating the aid library
+	   var app = $_.library();
+	   // Calling templating function
+	   // Params : Template url,Data object,callback function
+	   app.makeTemplate( 'templates/home', {
+	       title            : 'Aid JS',
+	       highlights 	: ['MVC','Templating','oops Concept'], 
+	       built_on  	: 'js', 
+	       console_msg      : 'Templating concept understood!',
+	       one 		: 1,
+	       two 		: 2
+	   }, function(html) {
+	       document.getElementById('view').innerHTML = html;
+	   });
+	</script>
+```
