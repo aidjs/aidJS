@@ -12,7 +12,7 @@ Aid Js is a javascript framework/library which aids/helps developers make incred
 	<li> No dependencies, its core javascript and so works without/with any js libraries</li>
 </ul>
 
-<h2> Framework/Library ? </h2>
+<h2>Framework/Library ?</h2>
 <p>Well, you can use aid as a framework also you can use it as a library. But using it as a framework will get you more feature than as a library</p>
 <h4>Framework</h4>
 <p>When aid is used as a framework it will act obviously as a MVC framework with the same MVC flow of server side language like PHP,.net, JAVA.</p>
